@@ -68,7 +68,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 90vw;
 }
@@ -82,7 +82,7 @@ main {
 
 section {
     margin-top: 2em;
-    width: 50vw;
+    width: 80vw;
 }
 
 section#about {
@@ -96,3 +96,6 @@ footer {
     font-size: 1rem;
 }
 
+footer p {
+    text-align: center;
+}
