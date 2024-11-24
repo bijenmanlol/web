@@ -1,13 +1,15 @@
-# NOAH ACHTERGAELE - portfolio/CV
+# Portfolio/CV - https://bijenmanlol.github.io/web
 
-### External assets used
+### Desc:
+
+Website for porfolio and to use as CV.
+
+
+### External assets used:
 
 - https://fontawesome.com/icons/moon?f=classic&s=solid
 - https://fontawesome.com/icons/sun?f=classic&s=solid
 
+&nbsp;
 
-### Credits
-
-Website made by Noah Achtergaele. All Rights Reserved
-
-
+**&copy; 2024 - All Rights Reserved**
