@@ -12,4 +12,4 @@ Website for porfolio and to use as CV.
 
 &nbsp;
 
-**&copy; 2024 - All Rights Reserved**
+**&copy; 2025 - All Rights Reserved**
