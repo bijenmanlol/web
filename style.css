@@ -98,6 +98,10 @@ section {
     width: 80vw;
 }
 
+section h2 {
+    font-size: 1.5em;
+}
+
 section#about {
     margin-top: 3em;
 }
