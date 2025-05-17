@@ -84,16 +84,26 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 90vw;
+    margin: 1em;
 }
 
-#buttons{
+#title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#title h1 {
+    margin: 0.1em 0;
+}
+
+#buttons {
     width: 8em;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-#lang{
+#lang {
     width: 3em;
     display: flex;
     align-items: center;
@@ -147,3 +157,10 @@ footer p {
     text-align: center;
 }
 
+/* media query title */
+
+@media only screen and (max-width: 430px) {
+    #lastname {
+        display: none;
+    }
+}
