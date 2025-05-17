@@ -86,6 +86,36 @@ nav {
     width: 90vw;
 }
 
+#buttons{
+    width: 8em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#lang{
+    width: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lang a {
+    transition: 0.25s;
+}
+
+#en {
+    text-decoration: none;
+}
+
+body[color-scheme="dark"] #lang a {
+    color: var(--dark-color);
+}
+
+body[color-scheme="light"] #lang a {
+    color: var(--light-color);
+}
+
 main {
     display: flex;
     flex-direction: column;

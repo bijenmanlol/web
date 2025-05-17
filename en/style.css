@@ -1,0 +1,149 @@
+/* vars */
+
+:root {
+    --dark-color: #ffffff;
+    --dark-bg-color: #121212;
+    --light-color: #000000;
+    --light-bg-color: #ffffff;
+}
+
+/* reset user agent values */
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* scrollbar */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: 0;
+}
+
+/* page styling */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25rem;
+    transition: 0.25s;
+}
+
+/* color scheme */
+
+body[color-scheme="dark"] {
+    background-color: var(--dark-bg-color);
+    color: var(--dark-color);
+}
+
+body[color-scheme="light"] {
+    background-color: var(--light-bg-color);
+    color: var(--light-color);
+}
+
+/* color scheme selector */
+
+#color-scheme-selector {
+    padding: 1em;
+    display: flex;
+    cursor: pointer;
+}
+
+#color-scheme-selector svg {
+    transition: 0.25s;
+}
+
+#color-scheme-selector svg:hover {
+    transform: scale(0.9);
+}
+
+body[color-scheme="dark"] #color-scheme-selector #dark {
+    display: none;
+}
+
+body[color-scheme="light"] #color-scheme-selector #light {
+    display: none;
+}
+
+/* other styling */
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+#buttons{
+    width: 8em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#lang{
+    width: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lang a {
+    transition: 0.25s;
+}
+
+#nl {
+    text-decoration: none;
+}
+
+body[color-scheme="dark"] #lang a {
+    color: var(--dark-color);
+}
+
+body[color-scheme="light"] #lang a {
+    color: var(--light-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+section {
+    margin-top: 2em;
+    width: 80vw;
+}
+
+section h2 {
+    font-size: 1.2em;
+}
+
+section#about {
+    margin-top: 3em;
+}
+
+footer {
+    margin-top: 6em;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
