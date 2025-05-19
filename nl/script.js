@@ -9,10 +9,10 @@ let icon = document.getElementById("favicon")
 button.addEventListener("click", function() {
     if (body.getAttribute("color-scheme") == "dark") {
         body.setAttribute("color-scheme", "light");
-        icon.href = "icon-light.png";
+        icon.href = "../assets/icon-light.png";
     }else {
         body.setAttribute("color-scheme", "dark");
-        icon.href = "icon-dark.png";
+        icon.href = "../assets/icon-dark.png";
     }
 })
 
