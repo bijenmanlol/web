@@ -104,7 +104,7 @@ nav {
 }
 
 #lang {
-    width: 3em;
+    width: 5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,6 +115,10 @@ nav {
 }
 
 #nl {
+    text-decoration: none;
+}
+
+#fr {
     text-decoration: none;
 }
 
