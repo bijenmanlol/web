@@ -114,11 +114,7 @@ nav {
     transition: 0.25s;
 }
 
-#nl {
-    text-decoration: none;
-}
-
-#fr {
+#nl, #fr {
     text-decoration: none;
 }
 
